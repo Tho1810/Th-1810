@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    padding: 10px;
+    background-color:azure;
+}
+.dong1{
+    text-align: center;
+}
+.dong1 h1{
+font-size: 40px;
+}
+.dong1 p{
+    font-size: 20px;
+}
+/* //dòng2 */
+.dong2{
+    overflow: hidden;
+    background-color: brown;
+}
+.dong2 a {
+    float: left;
+    display: block;
+    color: aqua;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dong2 a:hover{
+    background-color: gold;
+    color: green;
+}
+/* dong3 */
+.leftcolumn{
+    float: left;
+    width: 75%;
+}
+.rightcolumn{
+    float: left;
+    width: 25%;
+    background-color: blue;
+    padding-left: 20px;
+}
+/* của dong 3 */
+.images{
+    width:100% ;
+    height: 200px;
+}
+.tho{
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+.dong:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* cột phải */
+.ha{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.dong4{
+    padding: 10px;
+    text-align: center;
+    background: white;
+    margin-top: 10px;
+}
